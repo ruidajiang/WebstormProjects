@@ -1,0 +1,32 @@
+p{
+    text-indent: 20px;
+    line-height: 40px;
+    font-size: small;
+
+}
+h3{
+    position: relative;
+    left: 470px;
+    line-height: 10px;
+}
+h6{
+    position: relative;
+    left: 420px;
+    line-height: 10px;
+}
+label1{
+    position: relative;
+    left: 30px;
+}
+label2{
+    position: relative;
+    left: 40px;
+}
+.img1{
+    position: relative;
+    left: 400px;
+}
+label{
+    font-weight: bold;
+    line-height: 10px;
+}
