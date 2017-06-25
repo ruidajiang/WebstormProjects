@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-position: inside;
+}
+.box{
+    height: 885px;
+    width: 300px;
+    border: 1px solid #d3d4d5;
+}
+.box2{
+    height: 50px;
+    width: 300px;
+    background-color: black;
+}
+ul{
+    border-bottom: 1px dashed #797a7b;
+}
+ul li{
+    list-style: none;
+    text-align: left;
+    margin-left: 30px;
+}
+ul li:first-child{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.head{
+    color: white;
+    font-size: large;
+    height: 40px;
+    line-height: 40px;
+}
+.url1{
+    list-style-image: url("./img2/icon_01.gif") ;
+
+}
+.url2{
+    list-style-image: url("./img2/icon_02.gif");
+}
+.url3{
+    list-style-image: url("./img2/icon_03.gif");
+}
+.url4{
+    list-style-image: url("./img2/icon_04.gif");
+}
+.url5{
+    list-style-image: url("./img2/icon_05.gif");
+}
+.url6{
+    list-style-image: url("./img2/icon_06.gif");
+}
+.url7{
+    list-style-image: url("./img2/icon_07.gif");
+}
+.url8{
+    list-style-image: url("./img2/icon_08.gif");
+}
+.url9{
+    list-style-image: url("./img2/icon_09.gif");
+}

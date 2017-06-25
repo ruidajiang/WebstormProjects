@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.pict{
+    position: absolute;
+    overflow: hidden;
+    width: 330px;
+    height: 277px;
+}

@@ -1,0 +1,461 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.background{
+    width: 1280px;
+    height: 256px;
+    background: url("./img/header_back.png") no-repeat;
+}
+.background h3{
+    position: relative;
+    left: 570px;
+    top: 130px;
+    color: white;
+    font-weight: 200;
+}
+.headtext{
+    height: 25px;
+    width: 160px;
+    background: #928266;
+    position: relative;
+    top: 150px;
+    left: 570px;
+    border-radius: 5px;
+}
+.headtext p{
+    font-size: x-small;
+    color: white;
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
+.title{
+    width: 1280px;
+    height: 50px;
+    background-color: #333333;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+.logo{
+    width: 286px;
+    height: 62px;
+    background: url("./img/logo.png") no-repeat;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+.titletext{
+    position: relative;
+    left: 200px;
+    bottom: 45px;
+}
+.titletext ul li{
+    float: left;
+    color: white;
+    text-indent: 70px;
+    font-size: small;
+}
+.search{
+    height: 50px;
+    width: 200px;
+    background: url("./img/search.png") no-repeat;
+    position: relative;
+    left: 1100px;
+    bottom: 48px;
+}
+.search button{
+    float: left;
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+    height: 30px;
+    width: 50px;
+    background-color: #5b5b5b;
+    color: #dedede;
+}
+.info{
+    width: 1280px;
+    height: 50px;
+    background-color: #f1f1f1;
+}
+.info ul li{
+    font-size: small;
+    float: left;
+    text-indent: 70px;
+    margin-top: 15px;
+}
+.ad{
+    width: 1280px;
+    height: 310px;
+    position: relative;
+    top: 40px;
+}
+.picchange{
+    width: 620px;
+    height: 250px;
+    background: url("./img/car.jpg");
+    position: relative;
+    left: 10px;
+}
+.adpic1{
+     background: url("./img/apply_2.gif")no-repeat;
+     width: 520px;
+     height: 250px;
+     position: relative;
+     left: 640px;
+     bottom: 250px;
+ }
+.adpic2{
+    background: url("./img/apply_2.gif")no-repeat;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 950px;
+    bottom: 500px;
+}
+.pic1{
+    width: 1280px;
+    height: 1010px;
+    background-color: #f1f1f1;
+    position: relative;
+    top: 30px;
+    z-index: 3;
+}
+.pic1 div{
+    float: left;
+    margin-left: 17px;
+    margin-top: 20px;
+}
+.pic1 img{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.pict1{
+     width: 300px;
+     height: 280px;
+     background-color: white;
+     position: relative;
+ }
+.pict1 p{
+    font-size: x-small;
+    position: absolute;
+    left: 15px;
+    color: #a8a8a8;
+    margin-top: 220px;
+}
+.pict1 hr{
+    position: relative;
+    top: 245px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #a8a8a8;
+}
+.pict1 label{
+     font-size: x-small;
+     position: absolute;
+     left: 15px;
+     color: #a8a8a8;
+     margin-top: 250px;
+ }
+.pict1 label2{
+    font-size: x-small;
+    position: absolute;
+    left: 175px;
+    color: #a8a8a8;
+    margin-top: 250px;
+    margin-left: 80px;
+}
+.pic2 div{
+    float: left;
+}
+.pic2{
+    width: 1280px;
+    height: 690px;
+    background: url("./img/000.jpg");
+    position: relative;
+    top: 30px;
+    z-index: 3;
+}
+.pict2{
+    width: 318px;
+    height: 267px;
+    background-color: white;
+    position: relative;
+}
+.soul{
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;
+    background: #00c4b7;
+    position: absolute;
+    top: 580px;
+    left: 500px;
+}
+.soul a4{
+    position: relative;
+    top: 12px;
+    left: 20px;
+    color: white;
+}
+.soul:hover{
+    background: #ec4989;
+    transition: 0.4s;
+}
+.circle{
+    width: 1280px;
+    height: 260px;
+    position: relative;
+    top: 30px;
+}
+.circlepic{
+    width: 424px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+}
+.circle div{
+    float: left;
+}
+.circlepic img{
+    position: relative;
+    left: 150px;
+}
+.contenttext{
+     height: 20px;
+     width: 424px;
+     position: relative;
+ }
+.contenttext h3{
+    color: #00c8bc;
+    position: relative;
+    left: 180px;
+    bottom: 110px;
+}
+.contenttext p{
+    position: relative;
+    left: 100px;
+    bottom: 90px;
+    font-size: x-small;
+}
+.shop{
+    width: 1280px;
+    height: 200px;
+    background-color: #f1f1f1;
+    position: relative;
+    top: 60px;
+}
+.shop div{
+    float: left;
+    background-color: #ededed;
+}
+.squarepic {
+    width: 312px;
+    height: 200px;
+    background-color: #f1f1f1;
+    position: relative;
+    margin-left: 5px;
+}
+.squarepic img{
+    position: absolute;
+    left: 110px;
+    top: 80px;
+}
+.end{
+    width: 1280px;
+    height: 250px;
+    position: relative;
+    top: 60px;
+    background-color: black;
+}
+.pict1 img {
+    position: absolute;
+}
+.pict1 .cover{
+    width: 280px;
+    height: 180px;
+    position: absolute;
+    background: black;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s;
+    z-index: 5;
+    right: 10px;
+}
+.pict1:hover .cover{
+    opacity: 0.7;
+    top: 12px;
+}
+.pict1 .titlediv{
+    width: 280px;
+    height: 30px;
+    background: black;
+    position: absolute;
+    right: 10px;
+    opacity: 0;
+    z-index: 7;
+}
+.pict1 .titlediv a{
+    color: #e0e0e0;
+    font-size: smaller;
+    position: relative;
+    left: 20px;
+    top: 2px;
+}
+.pict1 .titlediv a2{
+    color: #e0e0e0;
+    font-size: smaller;
+    position: relative;
+    left: 160px;
+    top: 2px;
+}
+.pict1:hover .titlediv{
+    opacity: 1;
+    transition: 0.2s;
+}
+.pict1 img{
+    position: absolute;
+    top:0px;
+    transition: top 0.2s;
+}
+.pict1:hover img{
+    position: absolute;
+    top: 12px;
+}
+.pic:hover p{
+    color: white;
+    font-size: x-small;
+
+}
+.pict1:hover .titlediv{
+    top: 35;
+}
+.pict1:hover p{
+    color: #19cec4;
+    transition: 0.2s;
+}
+.page button{
+    position: relative;
+    left: 50%;
+    top
+}
+.page{
+    float: left;
+    position: relative;
+    left: 500px;
+}
+.pict2 img{
+    position: absolute;
+}
+.pict2 .cover2{
+    width: 320px;
+    height: 267px;
+    position: absolute;
+    background: #19cec4;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s;
+    z-index: 5;
+}
+.pict2:hover .cover2{
+    opacity: 0.7;
+}
+.pict2 .cover3{
+    width: 320px;
+    height: 300px;
+    position: absolute;
+    background: #19cec4;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s;
+    z-index: 5;
+}
+.pict2:hover .cover3{
+    opacity: 0.7;
+}
+.squaretext{
+    color: #666666;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.foottitle{
+    height: 5px;
+    width: 1280px;
+    color: #a2a2a2;
+    font-size: small;
+}
+.foottitle ul li{
+    float: left;
+    position: relative;
+    margin-left: 120px;
+    margin-top: 30px;
+    left: 250px;
+}
+label4{
+    position: relative;
+    right: 355px;
+}
+.lefttext{
+    height: 80px;
+    width: 500px;
+    font-size: x-small;
+    color: #595959;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.firstul{
+    height: 100px;
+    width: 50px;
+    font-size: x-small;
+    color: #595959;
+    position: relative;
+    left: 515px;
+    bottom: 20px;
+}
+.firstul ul li{
+    margin-top: 10px;
+}
+.secondul{
+    height: 100px;
+    width: 50px;
+    font-size: x-small;
+    color: #595959;
+    position: relative;
+    left: 660px;
+    bottom: 130px;
+}
+.secondul ul li{
+    margin-top: 10px;
+}
+.thirdul{
+    height: 100px;
+    width: 50px;
+    font-size: x-small;
+    color: #595959;
+    position: relative;
+    left: 810px;
+    bottom: 240px;
+}
+.thirdul ul li{
+    margin-top: 10px;
+}
+.forthul{
+    height: 100px;
+    width: 50px;
+    font-size: x-small;
+    color: #595959;
+    position: relative;
+    left: 955px;
+    bottom: 350px;
+}
+.forthul ul li{
+    margin-top: 10px;
+}

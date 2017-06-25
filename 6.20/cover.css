@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.box{
+
+    height: 40px;
+    width: 450px;
+    margin: 0 auto;
+}
+ul li{
+
+    height: 30px;
+    width: 100px;
+    float: left;
+    line-height: 30px;
+}
+ul li:hover{
+    cursor: pointer;
+    color: blue;
+    display: block;
+}
+:hover .box2{
+    display: none;
+}

@@ -1,0 +1,24 @@
+.pic{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+}
+
+.tran1{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+.tran2{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+    position: ;
+}
+
